@@ -1,0 +1,6 @@
+{
+  "name": "story-list",
+  "version": "0.0.1",
+  "apiDependencies": ["story-list"]
+}
+
