@@ -14,7 +14,7 @@
         <icon>//oxm1.cc/img/app_default.png</icon>
     </p>
     <data>
-        <story-list>
+        <storylist>
             <i>
                 <type>商业故事</type>
                 <title>比亚迪“云轨”：便捷智能的出行神器</title>
@@ -34,6 +34,7 @@
                 <href></href>
             </i>
 
-        </story-list>
+        </storylist>
+    
     </data>
 </root>

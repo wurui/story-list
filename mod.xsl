@@ -3,7 +3,7 @@
         <!-- className 'J_OXMod' required  -->
         <div class="J_OXMod oxmod-story-list" ox-mod="story-list">
             <ul>
-            	<xsl:for-each select="data/story-list/i">
+            	<xsl:for-each select="data/storylist/i">
             		<li>
             			<a href="{href}">
 	            			<img src="{img}"/>
