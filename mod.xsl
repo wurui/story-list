@@ -5,7 +5,7 @@
             <ul>
             	<xsl:for-each select="data/storylist/i">
             		<li>
-            			<a href="{href}">
+            			<a href="{LINK/detail}">
 	            			<img src="{img}"/>
 	            			<h4>
 	            				<xsl:value-of select="type"/>
