@@ -6,9 +6,9 @@
             	<xsl:for-each select="data/storylist/i">
             		<li>
             			<a href="{LINK/detail}">
-	            			<img src="{img}"/>
+	            			<img src="{media/i[type = 'image']/src}"/>
 	            			<h4>
-	            				<xsl:value-of select="type"/>
+	            				<xsl:value-of select="sort"/>
 	            			</h4>
 	            			<h2>
 	            				<xsl:value-of select="title"/>
