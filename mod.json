@@ -6,11 +6,11 @@
   		"name":"info-news",
   		"selector":"all",
   		"LINK":[
-		  	{
-		  		"name":"detail",
-		  		"title":"查看详情"
-		  	}
-		]
+  		  	{
+  		  		"name":"detail",
+  		  		"title":"查看详情"
+  		  	}
+  		]
   	}
   ]
 }

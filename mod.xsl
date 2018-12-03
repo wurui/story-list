@@ -3,10 +3,11 @@
         <!-- className 'J_OXMod' required  -->
         <div class="J_OXMod oxmod-story-list" ox-mod="story-list">
             <ul>
-            	<xsl:for-each select="data/storylist/i">
+            	<xsl:for-each select="data/info-news/i">
             		<li>
             			<a href="{LINK/detail}">
-	            			<img src="{media/i[type = 'image']/src}"/>
+	            			
+                            <img src="//a.oxm1.cc/img/blank.png" style="background-image:url({media/i[type = 'image'][1]/src})"/>
 	            			<h4>
 	            				<xsl:value-of select="sort"/>
 	            			</h4>
