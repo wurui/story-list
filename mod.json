@@ -1,14 +1,14 @@
 {
+  "RULE_VERSION":"20190428",
   "name": "story-list",
-  "version": "0.0.1",
   "apiDependencies": [
   	{
   		"name":"info-news",
-  		"selector":"all",
   		"LINK":[
   		  	{
   		  		"name":"detail",
-  		  		"title":"查看详情"
+  		  		"title":"查看详情",
+            "target":"article-news-detail"
   		  	}
   		]
   	}
